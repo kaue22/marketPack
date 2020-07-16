@@ -16,3 +16,15 @@ Route::get('/', function () {
 
     return view('welcome',compact('helloWorld'));
 });
+
+
+Route::get('/model',function(){
+    //$products = \App\Product::all();
+ /*   $user = new \App\User();
+    $user->name  = 'teste2';
+    $user->email ='teste@aeb2.com';
+    $user->password = bcrypt('12345678');
+    $user->save();
+    //return $user->save();*/
+   // return \App\User::find(30);
+});
